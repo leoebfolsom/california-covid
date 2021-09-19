@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: stg_public_mktplc_views__logistics_ppe
+    description: Staged logistics_ppe table.
+    columns:
+      - name: county
+        description: Name of county.
+        tests:
+          - not_null
+      - name: product_family
+        description: Name of PPE product.
+        tests:
+          - not_null
+      - name: quantity_filled
+        description: Number of PPE units.
+        tests:
+          - not_null
+      - name: shipping_zip_postal_code
+        description: US postal code. Note that on cursory inspection these are not consistently formatted.
+        tests:
+      - name: as_of_date
+        description: Date of shipment.
