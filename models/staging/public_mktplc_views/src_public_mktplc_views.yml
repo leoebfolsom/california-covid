@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: public_mktplc_views
+    description: California Covid-19 Data from Snowflake Marketplace. `https://app.snowflake.com/marketplace/listing/GZ1MBZAUJF?search=california`
+    schema: open_data
+    database: public_mktplc_views
+    tables:
+      - name: logistics_ppe
+        description: >-
+          From the Snowflake Marketplace documentation: "Personal Protection Equipment requested and fulfilled by county as curated by Office of Emergency Services."

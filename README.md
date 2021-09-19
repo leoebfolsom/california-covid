@@ -1,15 +1,10 @@
-Welcome to your new dbt project!
-
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
 
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](http://slack.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+### California Covid Analytics
+
+This project will transform data from [the State of California's COVID-19 Datasets](https://app.snowflake.com/marketplace/listing/GZ1MBZAUJF?search=california) from Snowflake Marketplace.
+
+
+### What do we want to learn from this data?
+
+I will figure that out as I get a bit more familiar with the data, but initially I would like to explore trends in PPE orders by zip code.
